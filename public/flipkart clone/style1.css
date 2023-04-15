@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background: #2874f0; 
+    font-family: 'Lato', sans-serif;
+}
+nav{
+    display: flex;
+    height: 60px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.FlipkartLogo{
+    width: 88px;
+    padding: 0 25px;
+
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+    padding:  20px;
+    margin-bottom: 30px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none ;   
+}
+nav ul li a:hover{ 
+    font-weight: bolder;
+}
+.dropDown-menu {
+    background-color:rgb(247, 240, 240);
+    display: flex;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+}
+.dropDown-menu-ul{
+    display: flex;
+    list-style: none;
+}
+.dropDown-menu-ul-li{
+    margin: 1px 40px;
+}
+.dropDown-menu-ul-li:hover{
+    font-weight: bolder;
+    cursor:pointer;
+}
+
+
+.search{
+    display: flex;
+    align-items: center;
+    border:none;
+}
+#search-1{
+    width: 30vw;
+    height: 27px;
+    border:none;
+    border-radius: 5px;
+    margin: 0 16px 0 56px;
+    padding:0 14px;
+    outline:gray;
+}
+.search-button{
+ font-weight: 900;
+ font-family: 'Lato', sans-serif;
+ border: 2px solid #2196F3;
+ border-radius: 5px;
+ background-color: white;
+ color:rgb(69, 65, 65);
+ padding: 12px 25px;
+ font-size: 17 px;
+ cursor: pointer;
+ margin-left:100px;
+}
+.search-button:hover{
+    font-size: 15px;
+}
+.account-1{
+    margin-left: 40px;
+    font-weight:bold;
+}
+.main-image{ 
+     width:  80vw ;
+    margin: 13px auto;  
+    overflow: hidden;
+}
+.cards{
+    max-width: 91vw;
+    margin: 38px auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+.card{
+    display: flex;
+    overflow: hidden;
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 17px;
+}
+
+
+footer p{
+    height: 90px;
+    background: #2874f0; 
+    color: white;
+    font-family: 'Lato';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}

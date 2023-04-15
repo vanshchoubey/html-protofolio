@@ -1,0 +1,95 @@
+body {
+  background-color:blueviolet;
+  height: 80px;
+}
+div.main {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  font-family: sans-serif;
+  margin: 100px;
+  margin-top: 150px;
+  height: 443px;
+}
+
+.img {
+  display: flex;
+  justify-content: right;
+}
+#mynumber{
+  width: 1200px;
+}
+input[type="text"] {
+  width: 594px;
+  font-size: 14px;
+  border: 0px solid gainsboro ;
+  border-radius: 5px;
+  background: #f5f5f5;
+  font-size: 16px;
+  padding: 3px;
+}
+input[type="email"] {
+  border-color:gainsboro;
+  width: 1200px;
+  font-size: 14px;
+  border: 0px solid gainsboro;
+  border-radius: 5px;
+  background: #f5f5f5;
+  font-size: 16px;
+  padding: 3px;
+}
+input[type="password"] {
+      width: 1200px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 0px solid gainsboro;
+  background: #f5f5f5;
+  font-size: 16px;
+  padding: 3px;
+}
+#button{
+  height: 30px;
+  width: 100px;
+  font-size: 14px;
+  border-radius: 15px;
+  outline: none;
+  font-size: 16px;
+  padding: 15px 15p;
+  cursor: pointer;
+  border: 0;
+  margin-left: 500px;
+  background-color:orangered;
+  color: white;
+}
+#submit {
+  background-color:orangered;
+  border-color: white;
+  color: white;
+}
+input[type="checkbox"] {
+  width: 12px;
+  font-size: 14px;
+  border-radius: 5px gainsboro;
+  background: #f5f5f5;
+  font-size: 16px;
+}
+span.term{color: blue;
+
+}
+#para{
+    margin-top: -14px;
+}
+span#black{
+  color: black;
+}
+#already:hover{
+    cursor: pointer;
+}
+button.login{
+  background: none;
+  color: #cbb9b9;
+  border: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
